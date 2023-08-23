@@ -10,23 +10,30 @@ import { CommentComponent } from './components/comment/comment.component';
 import { EditCommentComponent } from './components/edit-comment/edit-comment.component';
 import { LoginComponent } from './components/login/login.component';
 import { CreatePostComponent } from './components/create-post/create-post.component';
+import { NgbModalModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HomeComponent } from './components/home/home.component';
+import { PostDetailsComponent } from './components/post-details/post-details.component';
+import { ForgetPwdComponent } from './components/forget-pwd/forget-pwd.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddCommentComponent,
+    HomeComponent,
+    PostDetailsComponent,
     CommentComponent,
+    AddCommentComponent,
     EditCommentComponent,
+    CreatePostComponent,
     LoginComponent,
-    CreatePostComponent
+    ForgetPwdComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule,
     ReactiveFormsModule,
+    NgbModalModule, NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
