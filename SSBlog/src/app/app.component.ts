@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,30 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'SSBlog';
+  user: any;
+
+  constructor(private router: Router) { 
+    const userJson = localStorage.getItem('user');
+    if (userJson !== null) {
+      this.user = JSON.parse(userJson);
+    }
+    console.log('this.user', this.user)
+  }
+
+  logout() {
+    localStorage.clear();
+    this.router.navigateByUrl('login');
+    location.reload()
+  }
+
+  ngOnInit() {
+    const userJson = localStorage.getItem('user');
+    if (userJson !== null) {
+      this.user = JSON.parse(userJson);
+    }
+    console.log('this.user', this.user)
+    if(!this.user) {
+      this.router.navigateByUrl('login');
+    }
+  }
 }
