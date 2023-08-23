@@ -28,7 +28,7 @@ export class EditCommentComponent implements OnInit {
       postId: new FormControl(''),
       content: new FormControl('', [Validators.required])
     });
-    this.getCommentById(this.route.snapshot.params.id);
+    this.getCommentById(this.route.snapshot.params['id']);
   }
 
   getCommentById(id: any) {
@@ -49,7 +49,7 @@ export class EditCommentComponent implements OnInit {
 
   save() {
     this.isLoading = true;
-    const commentId = this.route.snapshot.params.id;
+    const commentId = this.route.snapshot.params['id'];
     this.comment.content = this.commentForm.value.content;
     this.api.updateComment(commentId, this.comment)
       .subscribe((res) => {
