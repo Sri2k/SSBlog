@@ -15,14 +15,17 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 })
 export class AddCommentComponent implements OnInit {
 
-  @Input() post: Post;
+  @Input() post!: Post;
   comment: Comment;
-  commentForm: FormGroup;
+  commentForm!: FormGroup;
   user:any;
 
   constructor(private api: CommentService, private router: Router, private modalService: NgbModal) {
     this.comment = new Comment();
-    this.user = JSON.parse(localStorage.getItem('user'))
+    const userJson = localStorage.getItem('user');
+    if (userJson !== null) {
+      this.user = JSON.parse(userJson);
+    }
   }
 
   ngOnInit() {
