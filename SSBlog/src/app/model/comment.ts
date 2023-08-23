@@ -3,7 +3,7 @@ export class Comment {
     postId!: number;
     parent_id!: null;
     user!: string;
-    date!: string;
+    date!: string | null;
     content!: string;
   }
   
