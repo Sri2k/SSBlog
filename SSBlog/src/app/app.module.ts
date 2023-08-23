@@ -9,6 +9,7 @@ import { AddCommentComponent } from './components/add-comment/add-comment.compon
 import { CommentComponent } from './components/comment/comment.component';
 import { EditCommentComponent } from './components/edit-comment/edit-comment.component';
 import { LoginComponent } from './components/login/login.component';
+import { CreatePostComponent } from './components/create-post/create-post.component';
 
 
 @NgModule({
@@ -17,14 +18,15 @@ import { LoginComponent } from './components/login/login.component';
     AddCommentComponent,
     CommentComponent,
     EditCommentComponent,
-    LoginComponent
+    LoginComponent,
+    CreatePostComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
     ReactiveFormsModule,
-    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
