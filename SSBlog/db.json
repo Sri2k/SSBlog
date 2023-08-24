@@ -99,79 +99,323 @@
       "sectionHeading": "Waters of Reverence",
       "createdAt": "2023-07-25T19:25:00.000Z"
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  ],
+],
   "comments": [
     {
-      "id": 2,
-      "postId": 1,
-      "parent_id": 1,
-      "user": "Jake",
-      "date": "2016-02-23",
-      "content": "Cras lectus nisl, scelerisque quis elit ut, luctus scelerisque purus."
+      "content": "The biryanis sound amazing! Can't wait to try them.",
+      "user": "Foodie123",
+      "date": "2023-08-25",
+      "postId": "1692855848062",
+      "id": 1
     },
     {
-      "id": 3,
-      "postId": 1,
-      "parent_id": 2,
-      "user": "Amelia",
-      "date": "2016-02-24",
-      "content": "Cras est nunc, tempus eget risus vitae, vulputate ornare magna."
+      "content": "I'm a big fan of Indian cuisine. The article was a delightful read.",
+      "user": "CuriousEater",
+      "date": "2023-08-26",
+      "postId": "1692855848062",
+      "id": 2
     },
     {
-      "id": 4,
-      "postId": 1,
-      "parent_id": 1,
-      "user": "Natashia",
-      "date": "2016-02-23",
-      "content": "Mauris malesuada a tellus at mollis. Nam eu eros ipsum."
+      "content": "The diversity of Indian culinary traditions is truly remarkable!",
+      "user": "CulturalExplorer",
+      "date": "2023-08-27",
+      "postId": "1692855848062",
+      "id": 3
     },
     {
-      "id": 5,
-      "postId": 1,
-      "parent_id": null,
-      "user": "Shella",
-      "date": "2016-02-24",
-      "content": "Mauris vitae sem in nisl pharetra dapibus in nec orci."
+      "content": "I tried aloo paratha for the first time after reading this. It was delicious!",
+      "user": "AdventurousEater",
+      "date": "2023-08-28",
+      "postId": "1692855848062",
+      "id": 4
     },
     {
-      "id": 6,
-      "postId": 2,
-      "parent_id": null,
-      "user": "Hermina",
-      "date": "2016-03-16",
-      "content": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames. It seems fine"
+      "content": "The descriptions are so vivid. I feel like I've already tasted these dishes!",
+      "user": "ImaginativePalate",
+      "date": "2023-08-29",
+      "postId": "1692855848062",
+      "id": 5
     },
     {
-      "id": 7,
-      "postId": 2,
-      "parent_id": null,
-      "user": "Natashia",
-      "date": "2016-03-17",
-      "content": "Nunc facilisis nisi vitae dapibus sodales. Proin vitae nunc turpis."
+      "content": "I've always wanted to visit the Himalayas for a spiritual retreat. This article has inspired me!",
+      "user": "SeekerOfPeace",
+      "date": "2023-08-30",
+      "postId": "1692855848063",
+      "id": 6
     },
     {
-      "content": "First comment",
-      "user": "vaibhav",
-      "date": "2021-06-20",
-      "postId": "10",
+      "content": "Meditating in the midst of the Himalayan mountains sounds like a dream come true.",
+      "user": "MindfulTraveler",
+      "date": "2023-08-31",
+      "postId": "1692855848063",
+      "id": 7
+    },
+    {
+      "content": "I've attended a yoga retreat in the Himalayas before. It was a transformative experience.",
+      "user": "YogaEnthusiast",
+      "date": "2023-09-01",
+      "postId": "1692855848063",
       "id": 8
     },
     {
-      "content": "second comment updated",
-      "user": "vbv",
-      "date": "2021-06-20",
-      "postId": "10",
+      "content": "The serene beauty of the Himalayas is perfect for finding inner peace.",
+      "user": "SereneSoul",
+      "date": "2023-09-02",
+      "postId": "1692855848063",
       "id": 9
+    },
+    {
+      "content": "I can't wait to explore the spiritual practices of the Himalayas on my next trip.",
+      "user": "WanderlustJourney",
+      "date": "2023-09-03",
+      "postId": "1692855848063",
+      "id": 10
+    },
+    {
+      "content": "I've always admired the intricate work that goes into crafting silk sarees. It's truly an art form.",
+      "user": "ArtisanAdmirer",
+      "date": "2023-09-04",
+      "postId": "1692855848064",
+      "id": 11
+    },
+    {
+      "content": "Silk sarees are a representation of Indian culture and craftsmanship. This article does justice to their beauty.",
+      "user": "CulturalEnthusiast",
+      "date": "2023-09-05",
+      "postId": "1692855848064",
+      "id": 12
+    },
+    {
+      "content": "I had the privilege of wearing a silk saree for a special occasion. It made me feel so elegant.",
+      "user": "EleganceFanatic",
+      "date": "2023-09-06",
+      "postId": "1692855848064",
+      "id": 13
+    },
+    {
+      "content": "It's fascinating to learn about the history and techniques behind silk saree weaving.",
+      "user": "HistoryBuff",
+      "date": "2023-09-07",
+      "postId": "1692855848064",
+      "id": 14
+    },
+    {
+      "content": "The blend of tradition and creativity in silk sarees is truly inspiring.",
+      "user": "CreativeTradition",
+      "date": "2023-09-08",
+      "postId": "1692855848064",
+      "id": 15
+    },
+    {
+      "content": "Trekking in the Western Ghats during the monsoon is an experience like no other!",
+      "user": "AdventureSeeker",
+      "date": "2023-09-09",
+      "postId": "1692855848065",
+      "id": 16
+    },
+    {
+      "content": "I've always wanted to explore the lush landscapes of the Western Ghats. This article has fueled my wanderlust.",
+      "user": "NatureExplorer",
+      "date": "2023-09-10",
+      "postId": "1692855848065",
+      "id": 17
+    },
+    {
+      "content": "Rain-soaked forests and misty mountains sound like a magical setting for trekking.",
+      "user": "RainyDayHiker",
+      "date": "2023-09-11",
+      "postId": "1692855848065",
+      "id": 18
+    },
+    {
+      "content": "I've trekked in the Western Ghats during monsoon and the waterfalls were breathtaking!",
+      "user": "WaterfallEnthusiast",
+      "date": "2023-09-12",
+      "postId": "1692855848065",
+      "id": 19
+    },
+    {
+      "content": "Exploring the Western Ghats while it's shrouded in mist must be an enchanting experience.",
+      "user": "MistyTrails",
+      "date": "2023-09-13",
+      "postId": "1692855848065",
+      "id": 20
+    },
+   
+    {
+      "content": "The diversity of festivals in India is truly remarkable. Each one is a celebration of culture and unity.",
+      "user": "CulturalEnthusiast",
+      "date": "2023-09-14",
+      "postId": "1692855848066",
+      "id": 21
+    },
+    {
+      "content": "I've always wanted to witness the colorful and lively atmosphere of Indian festivals.",
+      "user": "FestivalLover",
+      "date": "2023-09-15",
+      "postId": "1692855848066",
+      "id": 22
+    },
+    {
+      "content": "The communal spirit during Indian festivals is heartwarming. It's all about celebrating together.",
+      "user": "UnityObserver",
+      "date": "2023-09-16",
+      "postId": "1692855848066",
+      "id": 23
+    },
+    {
+      "content": "The diversity of traditions and customs in each festival is a true reflection of India's cultural richness.",
+      "user": "HeritageExplorer",
+      "date": "2023-09-17",
+      "postId": "1692855848066",
+      "id": 24
+    },
+    {
+      "content": "The festive foods during Indian celebrations are a treat for the senses!",
+      "user": "FoodieDelights",
+      "date": "2023-09-18",
+      "postId": "1692855848066",
+      "id": 25
+    },
+    {
+      "content": "Indian spices are the heart of every dish. They add a burst of flavor that's hard to resist.",
+      "user": "FlavorEnthusiast",
+      "date": "2023-09-19",
+      "postId": "1692855848067",
+      "id": 26
+    },
+    {
+      "content": "I love experimenting with different spices in my cooking. This article has given me new ideas!",
+      "user": "CookingExplorer",
+      "date": "2023-09-20",
+      "postId": "1692855848067",
+      "id": 27
+    },
+    {
+      "content": "The history behind each spice is fascinating. It's like a journey through time and flavors.",
+      "user": "HistoryFlavors",
+      "date": "2023-09-21",
+      "postId": "1692855848067",
+      "id": 28
+    },
+    {
+      "content": "I can almost smell the aromatic spices through the descriptions. Truly a sensory experience!",
+      "user": "AromaAdventurer",
+      "date": "2023-09-22",
+      "postId": "1692855848067",
+      "id": 29
+    },
+    {
+      "content": "Indian cuisine wouldn't be the same without the magic of spices. They elevate every dish.",
+      "user": "SpiceMagic",
+      "date": "2023-09-23",
+      "postId": "1692855848067",
+      "id": 30
+    },
+    {
+      "content": "Supporting traditional handicrafts is a wonderful way to uplift rural communities and preserve heritage.",
+      "user": "SupportLocal",
+      "date": "2023-09-24",
+      "postId": "1692855848068",
+      "id": 31
+    },
+    {
+      "content": "I'm always impressed by the creativity and skill of artisans who produce these beautiful handicrafts.",
+      "user": "ArtAppreciator",
+      "date": "2023-09-25",
+      "postId": "1692855848068",
+      "id": 32
+    },
+    {
+      "content": "The stories behind these handicrafts are as fascinating as the crafts themselves. It's a rich cultural tapestry.",
+      "user": "StoryWeaver",
+      "date": "2023-09-26",
+      "postId": "1692855848068",
+      "id": 33
+    },
+    {
+      "content": "I've bought handmade pottery from rural artisans before. Knowing the impact it has is heartwarming.",
+      "user": "HandmadeCollector",
+      "date": "2023-09-27",
+      "postId": "1692855848068",
+      "id": 34
+    },
+    {
+      "content": "Handicrafts are a bridge between the past and the present, connecting us to cultural roots.",
+      "user": "CulturalBridge",
+      "date": "2023-09-28",
+      "postId": "1692855848068",
+      "id": 35
+    },
+    {
+      "content": "Indian cinema has come a long way, and this article captures its journey beautifully.",
+      "user": "CinemaEnthusiast",
+      "date": "2023-09-29",
+      "postId": "1692855848069",
+      "id": 40
+    },
+    {
+      "content": "Bollywood has created iconic moments that are etched in history. This article is a trip down memory lane.",
+      "user": "BollywoodFan",
+      "date": "2023-09-30",
+      "postId": "1692855848069",
+      "id": 41
+    },
+    {
+      "content": "The influence of Indian cinema on culture and society is immense. It's a mirror reflecting our lives.",
+      "user": "SocietyMirror",
+      "date": "2023-10-01",
+      "postId": "1692855848069",
+      "id": 42
+    },
+    {
+      "content": "Cinematic storytelling has the power to transcend borders and languages, and Indian cinema does it brilliantly.",
+      "user": "GlobalStoryteller",
+      "date": "2023-10-02",
+      "postId": "1692855848069",
+      "id": 43
+    },
+    {
+      "content": "From black-and-white classics to modern blockbusters, Indian cinema has left an indelible mark.",
+      "user": "MovieHistory",
+      "date": "2023-10-03",
+      "postId": "1692855848069",
+      "id": 44
+    },
+    {
+      "content": "The spiritual significance of India's sacred rivers is awe-inspiring. This article is a beautiful tribute to them.",
+      "user": "SpiritualSeeker",
+      "date": "2023-10-04",
+      "postId": "1692855848071",
+      "id": 45
+    },
+    {
+      "content": "I've always wanted to take a pilgrimage along these holy rivers. The stories and rituals are captivating.",
+      "user": "PilgrimJourney",
+      "date": "2023-10-05",
+      "postId": "1692855848071",
+      "id": 46
+    },
+    {
+      "content": "The historical cities and towns that have flourished along these rivers are a testament to their importance.",
+      "user": "HistoryTraveler",
+      "date": "2023-10-06",
+      "postId": "1692855848071",
+      "id": 47
+    },
+    {
+      "content": "The reverence that people have for these rivers is heartening. They symbolize purity and renewal.",
+      "user": "ReverentSoul",
+      "date": "2023-10-07",
+      "postId": "1692855848071",
+      "id": 48
+    },
+    {
+      "content": "Exploring the spiritual essence of India's rivers is a journey of self-discovery. Thank you for this enlightening article.",
+      "user": "JourneyWithin",
+      "date": "2023-10-08",
+      "postId": "1692855848071",
+      "id": 49
     }
   ]
 }

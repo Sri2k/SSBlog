@@ -19,8 +19,9 @@
     <div
       class="col-12 col-sm-8 col-md-6 col-lg-4 pb-4"
       *ngFor="let post of posts"
-      [routerLink]="['/post/details/', post.id]"
-    >
+      [routerLink]="['/post/details/', post.id]">
+      <!-- [routerLink]="['/post/details/', post.id]"
+    > -->
       <div class="card">
         <img src="https://via.placeholder.com/660x340" alt="" />
         <div class="card-img-overlay">
@@ -29,12 +30,12 @@
         <div class="card-body">
           <h4 class="card-title">{{ post.heading }}</h4>
           <small class="text-muted cat">
-            <i class="far fa-clock text-info"></i> 5 minutes
+            <i class="far fa-clock text-info"></i> {{getTimeDifference(post.createdAt)}}
           </small>
           <p class="card-text">
             {{ post.subHeading }}
           </p>
-          <a href="#" class="btn btn-info">Read more</a>
+          <button  class="btn btn-primary">Read more</button>
         </div>
         <div
           class="

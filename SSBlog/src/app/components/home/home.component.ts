@@ -39,4 +39,18 @@ export class HomeComponent implements OnInit {
     this.router.navigateByUrl('/post/create')
   }
 
+  getTimeDifference(createdAt: any): string {
+    const createdAtDate = new Date(createdAt);
+    const now = Date.now();
+    const timeDifferenceMs = now - createdAtDate.getTime();
+    const timeDifferenceMinutes = Math.floor(timeDifferenceMs / (1000 * 60));
+
+    if (timeDifferenceMinutes < 1440) {
+      return `${timeDifferenceMinutes} minutes ago`; // Less than 24 hours
+    } else {
+      const timeDifferenceDays = Math.floor(timeDifferenceMinutes / 1440);
+      return `${timeDifferenceDays} days ago`; // 24 hours = 1440 minutes
+    }
+  }
+  
 }

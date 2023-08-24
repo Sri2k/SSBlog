@@ -24,10 +24,18 @@ body {
     font-size: 0.8rem;
   }
 
-  .btn-toolbar { 
-    justify-content: flex-end !important;
-         .btn-primary {
-            font-size: 20px !important;
+  // .btn-toolbar { 
+  //   justify-content: flex-end !important;
+  //        .btn-primary {
+  //           font-size: 20px !important;
+  //       }
+  // }
+        .btn-toolbar {
+          justify-content: flex-end !important;
+        }
+        
+        /* Override font size for primary buttons inside .btn-toolbar */
+        .btn-toolbar .btn-primary {
+          font-size: 20px !important;
         }
     
-}
