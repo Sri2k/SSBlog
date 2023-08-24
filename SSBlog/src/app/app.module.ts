@@ -14,6 +14,7 @@ import { NgbModalModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './components/home/home.component';
 import { PostDetailsComponent } from './components/post-details/post-details.component';
 import { ForgetPwdComponent } from './components/forget-pwd/forget-pwd.component';
+import { SignupComponent } from './components/signup/signup.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { ForgetPwdComponent } from './components/forget-pwd/forget-pwd.component
     EditCommentComponent,
     CreatePostComponent,
     LoginComponent,
-    ForgetPwdComponent
+    ForgetPwdComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
