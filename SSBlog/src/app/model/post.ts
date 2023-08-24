@@ -8,5 +8,7 @@ export class Post {
     section3!: string;
     sectionHeading!: string;
     createdAt!: Date;
+    homePageBlogUrl!:string;
+    BlogPageUrl!:string;
   }
   

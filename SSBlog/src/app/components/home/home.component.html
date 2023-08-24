@@ -23,7 +23,8 @@
       <!-- [routerLink]="['/post/details/', post.id]"
     > -->
       <div class="card">
-        <img src="https://via.placeholder.com/660x340" alt="" />
+        <img [src]="post.homePageBlogUrl" [alt]="post.heading + ' image loading...'" />
+
         <div class="card-img-overlay">
           <a class="btn btn-light btn-sm">Technology</a>
         </div>

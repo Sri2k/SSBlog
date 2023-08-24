@@ -6,14 +6,15 @@
     Loading data, please wait...
   </div>
   <div class="card">
-    <img src="https://via.placeholder.com/360x140" alt="" />
+    <img [src]="post.homePageBlogUrl" [alt]="post.heading + ' image'" />
+
     <div class="card-header"> Author - {{ post?.author | titlecase  }} | <span class="text-muted">{{ post?.createdAt | date: 'dd/MM/yyyy' }}</span></div>
     <div class="card-body">
-      <h5 class="card-title">{{ post?.heading }}</h5>
-      <h6 class="card-title">{{ post?.subHeading }}</h6>
+      <h2 class="card-title">{{ post?.heading }}</h2>
+      <h5 class="card-title">{{ post?.subHeading }}</h5>
       <p class="card-text" [innerHTML]="post.section1"></p>
       <p class="card-text" [innerHTML]="post.section2"></p>
-      <h6 class="card-title">{{ post?.sectionHeading }}</h6>
+      <h5 class="card-title">{{ post?.sectionHeading }}</h5>
       <p class="card-text" [innerHTML]="post.section3"></p>
     </div>
     <div class="card-footer">

@@ -22,6 +22,7 @@ export class HomeComponent implements OnInit {
     this.api.getPosts()
       .subscribe((res: any) => {
         this.posts = this.sortPostsByDate(res);
+        console.log(this.posts)
         this.isLoading = false;
       }, err => {
         console.log(err);
