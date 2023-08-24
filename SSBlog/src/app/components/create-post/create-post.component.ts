@@ -42,7 +42,7 @@ export class CreatePostComponent implements OnInit {
   }
 
   submit() {
-    console.log("formGroup", this.blogForm.value);
+    //console.log("formGroup", this.blogForm.value);
     this.api.addPost(this.blogForm.value).subscribe((res) => {
       console.log("res", res);
       alert("Blog created!");

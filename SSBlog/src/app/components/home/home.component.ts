@@ -37,7 +37,6 @@ export class HomeComponent implements OnInit {
 
   createBlog() {
     this.router.navigateByUrl('/post/create')
-   
   }
 
 }

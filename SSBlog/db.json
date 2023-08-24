@@ -1,95 +1,114 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "Blog post #1",
-      "author": "Melissa Manges",
-      "publish_date": "2016-02-23",
-      "slug": "blog-post-1",
-      "description": "Utroque denique invenire et has.",
-      "content": "<p>Utroque denique invenire et has. Cum case definitiones no, est dicit placerat verterem ne.</p> <p>In ius nonumy perfecto adipiscing, ad est cibo iisque aliquid, dicit civibus eum ei. Cum animal suscipit at, utamur utroque appareat sed ex.</p>"
+      "id": 1692855848062,
+      "author": "Rajesh Patel",
+      "heading": "Exploring Indian Cuisine: A Culinary Adventure",
+      "subHeading": "Embark on a flavorful journey through the diverse landscape of Indian cuisine.",
+      "section1": "Join us as we delve into the rich tapestry of Indian culinary traditions. From the fragrant biryanis of Hyderabad to the spicy street foods of Mumbai, get ready to tantalize your taste buds.",
+      "section2": "Experience the perfect blend of spices, the harmony of flavors, and the cultural stories behind each dish. From the fiery curries of the South to the hearty chaats of the North, this culinary exploration will leave you craving for more.",
+      "section3": "Indulge in the magic of Indian spices and learn about the art of blending flavors that are an integral part of the country's vibrant cuisine.",
+      "sectionHeading": "Culinary Delights",
+      "createdAt": "2023-01-15T09:30:00.000Z"
     },
     {
-      "id": 2,
-      "title": "Blog post #2",
-      "author": "Olene Ogan",
-      "publish_date": "2016-03-16",
-      "slug": "blog-post-2",
-      "description": "Ex legere perpetua electram vim, per nisl inermis quaestio ea.",
-      "content": "<p>Ex legere perpetua electram vim, per nisl inermis quaestio ea. Everti adolescens ut nec. Quod labitur assueverit vis at, sea an erat modus delicata.</p> <p>Dico omnesque epicurei te vix. Tota verterem temporibus eu quo, eu iudicabit repudiandae sea. Elitr nihil gloriatur vis in.</p>"
+      "id": 1692855848063,
+      "author": "Priya Sharma",
+      "heading": "Spiritual Retreats in the Himalayas",
+      "subHeading": "Embark on a transformative journey to find inner peace amidst the Himalayan serenity.",
+      "section1": "Discover the tranquility of ancient ashrams and meditation centers nestled in the lap of the Himalayas. Explore practices that have been passed down for generations and reconnect with your spiritual essence.",
+      "section2": "From yoga and meditation to holistic healing, these retreats offer a unique opportunity to rejuvenate your mind, body, and soul.",
+      "section3": "Experience the serene beauty of the Himalayas as you embark on a quest for self-discovery and mindfulness.",
+      "sectionHeading": "Path to Inner Harmony",
+      "createdAt": "2023-05-02T14:15:00.000Z"
     },
     {
-      "id": 3,
-      "title": "Blog post #3",
-      "author": "Annemarie Axelrod",
-      "publish_date": "2016-03-28",
-      "slug": "blog-post-3",
-      "description": "Sea ne harum reformidans conclusionemque.",
-      "content": "<p>Sea ne harum reformidans conclusionemque. Eu eirmod adversarium definitiones pri, id brute option convenire sed.</p> <p>Id per porro tritani, mei ut assum persius prompta. Nominavi eligendi cu mea. Utinam consul theophrastus te sit, denique platonem assentior te pri. Nam id enim case iracundia.</p>"
+      "id": 1692855848064,
+      "author": "Amita Verma",
+      "heading": "Crafting Silk Sarees: A Generational Art",
+      "subHeading": "Dive into the intricate world of silk saree craftsmanship that has been a part of Indian heritage for centuries.",
+      "section1": "Uncover the secrets behind the creation of luxurious silk sarees. Witness the meticulous weaving process that involves intricate patterns, vibrant colors, and a dedication to preserving tradition.",
+      "section2": "Meet the skilled artisans who breathe life into these textiles and learn about the cultural significance each saree carries.",
+      "section3": "Explore the fusion of ancient craftsmanship with modern aesthetics in the world of silk sarees.",
+      "sectionHeading": "Weaving Traditions",
+      "createdAt": "2023-07-10T18:45:00.000Z"
     },
     {
-      "id": 4,
-      "title": "Blog post #4",
-      "author": "Magnolia Moyer",
-      "publish_date": "2016-06-03",
-      "slug": "blog-post-4",
-      "description": "Has omnes vivendum invenire ne, est facete everti erroribus et.",
-      "content": "<p>Has omnes vivendum invenire ne, est facete everti erroribus et. Sit eu partem deserunt, molestiae forensibus theophrastus vel ex, quod sensibus constituam ad vim.</p> <p>Eruditi indoctum repudiare sit ex, modo duis oratio nam ei. Ea ius laoreet nominati dissentias.</p>"
+      "id": 1692855848065,
+      "author": "Aryan Deshmukh",
+      "heading": "Monsoon Adventures: Trekking in Western Ghats",
+      "subHeading": "Embrace the thrill of monsoon trekking through the lush Western Ghats of India.",
+      "section1": "Experience the magic of rain-soaked forests and misty mountains as you embark on adventurous treks in the Western Ghats. Discover hidden waterfalls, verdant valleys, and diverse wildlife that come alive during the monsoon season.",
+      "section2": "Prepare for an unforgettable journey through nature's bounty, where every step is a chance to connect with the land.",
+      "section3": "Learn about the importance of responsible trekking and preserving the fragile ecosystem of the Western Ghats.",
+      "sectionHeading": "Nature's Embrace",
+      "createdAt": "2023-02-28T07:20:00.000Z"
     },
     {
-      "id": 5,
-      "title": "Blog post #5",
-      "author": "Alexandra Alexander",
-      "publish_date": "2016-08-09",
-      "slug": "blog-post-5",
-      "description": "Eum no quem novum periculis, mea sonet zril ea.",
-      "content": "<p>Eum no quem novum periculis, mea sonet zril ea. Electram urbanitas no mei, in eam graeci suavitate.</p> <p>An eam aliquid invidunt, mei veritus repudiandae ad, cum eu decore option complectitur. Sea tation iracundia eu. Sit ea adhuc idque maiorum. Vis ea simul habemus scriptorem, tale case assum no mei.</p>"
+      "id": 1692855848066,
+      "author": "Neha Kapoor",
+      "heading": "Diverse Festivals of India: Celebrating Unity",
+      "subHeading": "Explore the myriad festivals that showcase India's cultural diversity and spirit of togetherness.",
+      "section1": "Immerse yourself in the kaleidoscope of Indian festivals, from Diwali's dazzling lights to Holi's vibrant colors. Learn about the customs, traditions, and regional variations that make each festival a unique expression of joy.",
+      "section2": "Witness the shared sense of unity that binds people from different backgrounds during these celebrations.",
+      "section3": "Experience the joy of togetherness as communities come alive with music, dance, and delicious feasts.",
+      "sectionHeading": "Colors of Celebration",
+      "createdAt": "2023-04-16T12:00:00.000Z"
     },
     {
-      "id": 6,
-      "title": "Blog post #6",
-      "author": "Merna Mitchel",
-      "publish_date": "2016-09-16",
-      "slug": "blog-post-6",
-      "description": "Velit doming vis te, ut vim fugit abhorreant.",
-      "content": "<p>Velit doming vis te, ut vim fugit abhorreant. Eirmod reformidans duo at, ne nam virtute commune, sit cu esse vidit zril.</p> <p>Iusto officiis eloquentiam cum ea, eu case interpretaris duo. Duis ancillae an pro, vel idque error alienum at. An nec graeco equidem, unum eripuit ea sit.</p>"
+      "id": 1692855848067,
+      "author": "Vikram Singh",
+      "heading": "Spices of India: A Flavorful Journey",
+      "subHeading": "Delve into the aromatic world of Indian spices and their integral role in culinary excellence.",
+      "section1": "Uncover the magic behind the spices that elevate Indian cuisine to new heights. From the pungent aroma of cardamom to the earthy richness of turmeric, spices are the heart of every Indian kitchen.",
+      "section2": "Explore their history, health benefits, and the art of blending them to create mouthwatering dishes that dance on your taste buds.",
+      "section3": "Embark on a sensory journey through the diverse flavors that define Indian cuisine.",
+      "sectionHeading": "A Symphony of Tastes",
+      "createdAt": "2023-06-20T16:10:00.000Z"
     },
     {
-      "id": 7,
-      "title": "Blog post #7",
-      "author": "Shari Stampley",
-      "publish_date": "2016-09-29",
-      "slug": "blog-post-7",
-      "description": "Diceret appetere pro ne, corpora neglegentur per at.",
-      "content": "<p>Diceret appetere pro ne, corpora neglegentur per at. Mea solum nonumes te, id posse admodum has. Sonet tantas at per, vix te hinc vidit.</p> <p>Brute civibus no sed. Vel et laoreet mediocritatem. In eos doming labores.</p>"
+      "id": 1692855848068,
+      "author": "Sandeep Rao",
+      "heading": "Rural Empowerment Through Handicrafts",
+      "subHeading": "Discover how traditional handicrafts are uplifting rural communities across India.",
+      "section1": "Learn about grassroots initiatives that are reviving traditional crafts in rural India. From pottery and weaving to intricate woodwork, these crafts are not only preserving heritage but also providing sustainable livelihoods to artisans.",
+      "section2": "Explore the stories of the individuals behind these crafts and the positive impact on their communities.",
+      "section3": "Experience the fusion of creativity and heritage that empowers rural artisans to thrive.",
+      "sectionHeading": "Crafting Livelihoods",
+      "createdAt": "2023-03-08T11:50:00.000Z"
     },
     {
-      "id": 8,
-      "title": "Blog post #8",
-      "author": "Haywood Halfacre",
-      "publish_date": "2016-09-30",
-      "slug": "blog-post-8",
-      "description": "Ea graece animal offendit vel, at pro rebum integre, liber sapientem est te.",
-      "content": "<p>Ea graece animal offendit vel, at pro rebum integre, liber sapientem est te.</p> <p>Dicat decore qualisque sed at, est no ferri nobis suavitate, ne mei sale illum. Ei autem fastidii ius, facer liber ocurreret his in, ne aeterno viderer nec. Cu utinam mucius menandri vel, ea qui nulla veritus perpetua. Omnis nostro mnesarchum usu ea, eu duo audire adversarium.</p>"
+      "id": 1692855848069,
+      "author": "Rahul Mehta",
+      "heading": "The Evolution of Indian Cinema",
+      "subHeading": "Trace the fascinating journey of Indian cinema from its humble beginnings to a global phenomenon.",
+      "section1": "Dive into the history of Indian cinema, from the black-and-white classics to the modern blockbusters. Explore the contributions of legendary actors, directors, and the ever-changing narratives that reflect society's evolution.",
+      "section2": "Witness how Indian cinema continues to captivate audiences worldwide, blending tradition with innovation.",
+      "section3": "Experience the magic of storytelling and celluloid dreams that have shaped generations.",
+      "sectionHeading": "Frames of Glory",
+      "createdAt": "2023-08-02T23:55:00.000Z"
     },
     {
-      "id": 9,
-      "title": "Blog post #9",
-      "author": "Myron Montford",
-      "publish_date": "2016-10-11",
-      "slug": "blog-post-9",
-      "description": "Ius ad verear tincidunt scriptorem, vel et libris saperet invidunt.",
-      "content": "<p>Ius ad verear tincidunt scriptorem, vel et libris saperet invidunt. No assum maiorum per. Purto tamquam labores has ex. Eu aliquid interpretaris vel, eos tale rebum dolore in.</p>"
-    },
-    {
-      "id": 10,
-      "title": "Blog post #10",
-      "author": "Tandy Thiem",
-      "publish_date": "2016-11-29",
-      "slug": "blog-post-10",
-      "description": "Natum integre tractatos eu duo, ut falli scriptorem qui.",
-      "content": "<p>Natum integre tractatos eu duo, ut falli scriptorem qui. Probo inermis ad nec, petentium inciderint mei in.</p> <p>Quidam inermis detraxit per ea. Vix etiam eirmod ut, sea dolor appellantur te. Te quis dicit delicata eum, in has convenire interesset.</p>"
+      "id": 1692855848071,
+      "author": "Deepa Menon",
+      "heading": "Sacred Rivers of India: A Spiritual Odyssey",
+      "subHeading": "Journey along the holy rivers of India and delve into their profound cultural and spiritual significance.",
+      "section1": "Embark on a pilgrimage along the Ganges, Yamuna, and other sacred rivers that have shaped India's spiritual landscape. Explore rituals, stories, and the deep-rooted beliefs that connect people to these life-giving waters.",
+      "section2": "Discover the historical cities and towns that have flourished along these rivers, witnessing the ebb and flow of civilization through the ages.",
+      "section3": "Experience the devotion and reverence that these rivers command, acting as sources of inspiration, purity, and renewal.",
+      "sectionHeading": "Waters of Reverence",
+      "createdAt": "2023-07-25T19:25:00.000Z"
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   ],
   "comments": [
     {
