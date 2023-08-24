@@ -22,7 +22,7 @@ export class AddCommentComponent implements OnInit {
 
   constructor(private api: CommentService, private router: Router, private modalService: NgbModal) {
     this.comment = new Comment();
-    const userJson = localStorage.getItem('user');
+    const userJson = sessionStorage.getItem('user');
     if (userJson !== null) {
       this.user = JSON.parse(userJson);
     }

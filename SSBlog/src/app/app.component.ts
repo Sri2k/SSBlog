@@ -10,27 +10,27 @@ export class AppComponent {
   user: any;
 
   constructor(private router: Router) { 
-    const userJson = localStorage.getItem('user');
-    if (userJson !== null) {
-      this.user = JSON.parse(userJson);
-    }
-    console.log('this.user', this.user)
-  }
+    const userJson = sessionStorage.getItem('user');
+  //   if (userJson !== null) {
+  //     this.user = JSON.parse(userJson);
+  //   }
+  //   console.log('this.user', this.user)
+  // }
 
-  logout() {
-    localStorage.clear();
-    this.router.navigateByUrl('login');
-    location.reload()
-  }
+  // logout() {
+  //   localStorage.clear();
+  //   this.router.navigateByUrl('login');
+  //   location.reload()
+  // }
 
-  ngOnInit() {
-    const userJson = localStorage.getItem('user');
-    if (userJson !== null) {
-      this.user = JSON.parse(userJson);
-    }
-    console.log('this.user', this.user)
-    if(!this.user) {
-      this.router.navigateByUrl('login');
-    }
+  // ngOnInit() {
+  //   const userJson = localStorage.getItem('user');
+  //   if (userJson !== null) {
+  //     this.user = JSON.parse(userJson);
+  //   }
+  //   console.log('this.user', this.user)
+  //   if(!this.user) {
+  //     this.router.navigateByUrl('login');
+  //   }
   }
 }

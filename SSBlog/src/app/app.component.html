@@ -1,8 +1,21 @@
-<div class="jumbotron jumbotron-fluid">
+<!-- <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <p class="text-right logout" (click) ="logout()" > <b *ngIf="user"> {{user}} |  Logout</b> </p>
     <h1 class="display-10">YOUR BLOG</h1>
     <p class="lead">Blog</p>
   </div>
 </div>
+<router-outlet></router-outlet> -->
+
+<!-- <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <p class="text-right">
+      <b *ngIf="user">{{ user }} |</b>
+      <span class="logout" *ngIf="user" (click)="logout()"> Logout</span>
+    </p>
+    <h1 class="display-10">YOUR BLOG</h1>
+    <p class="lead">Blog</p>
+  </div>
+</div> -->
 <router-outlet></router-outlet>
+

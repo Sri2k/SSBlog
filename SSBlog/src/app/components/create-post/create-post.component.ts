@@ -23,7 +23,7 @@ export class CreatePostComponent implements OnInit {
 
   initForm() {
     // this.author = JSON.parse(localStorage.getItem("user"));
-    const userJson = localStorage.getItem("user");
+    const userJson = sessionStorage.getItem("user");
   if (userJson !== null) {
     this.author = JSON.parse(userJson);
   }
