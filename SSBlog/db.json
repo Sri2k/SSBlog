@@ -1,18 +1,10 @@
 {
   "signup": [
     {
-      "name": "admin1",
-      "email": "admin1@bomato.com",
-      "mobile": 6677889910,
-      "password": "password@123",
+      "username": "suhas",
+      "email": "suhas@gmail.com",
+      "password": "suhas123",
       "id": 1
-    },
-    {
-      "name": "admin2",
-      "email": "admin2@bomato.com",
-      "mobile": 1099887766,
-      "password": "passowrd@123",
-      "id": 2
     }
   ],
   "posts": [

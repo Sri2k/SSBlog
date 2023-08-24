@@ -35,6 +35,7 @@ import { SignupComponent } from './components/signup/signup.component';
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
+    FormsModule,
     NgbModalModule, NgbModule,
   ],
   providers: [],

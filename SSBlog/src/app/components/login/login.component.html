@@ -1,8 +1,38 @@
 
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+  <div class="col-md-6">
+    <div class="card shadow-lg">
+      <div class="card-body">
+        <h2 class="text-center text-primary mb-4">Login</h2>
+        <h5 class="text-center mb-3">Welcome back! Please log in to continue.</h5>
+         <form [formGroup]="loginForm" (ngSubmit)="logIn()">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
+          </form>
+          <div class="text-center mt-3">
+            <a class="text-secondary" routerLink="/signup">New User? Click to Sign up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<!-- 
 <div class="container">
   <div class="row">
       <div class="col-md-6">
-          <div class="card bg-orange">
+          <div class="card">
               <div class="text-center text-light">
                   <h1>Login</h1>
                   <h5>You can login here!</h5>
@@ -24,4 +54,4 @@
       </div>
   </div>
 </div> 
-
+ -->

@@ -1,7 +1,18 @@
-import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators, AbstractControl } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
+
+function passwordMatchValidator(control: AbstractControl): { [key: string]: boolean } | null {
+  const password = control.get('password');
+  const confirmPassword = control.get('confirmPassword');
+
+  if (!password || !confirmPassword) {
+    return null;
+  }
+
+  return password.value === confirmPassword.value ? null : { passwordMismatch: true };
+}
 
 @Component({
   selector: 'app-signup',
@@ -9,9 +20,10 @@ import { Router } from '@angular/router';
   styleUrls: ['./signup.component.scss'],
 })
 export class SignupComponent {
-  apiUrl:string = 'http://localhost:3000/';
+  apiUrl: string = 'http://localhost:3000/';
 
   signupForm!: FormGroup;
+
   constructor(
     private formbuilder: FormBuilder,
     private _http: HttpClient,
@@ -20,27 +32,37 @@ export class SignupComponent {
 
   ngOnInit(): void {
     this.signupForm = this.formbuilder.group({
-      name: [''],
-      email: [''],
-      mobile: [''],
-      password: [''],
+      username: ['', Validators.required],
+      email: ['', [Validators.required, Validators.email]],
+      password: ['', [Validators.required, Validators.minLength(6)]],
+      confirmPassword: ['', Validators.required],
+    }, {
+      validators: passwordMatchValidator
     });
   }
 
   signUp() {
-    this._http
-      .post<any>(this.apiUrl+'signup', this.signupForm.value)
-      .subscribe({
-        next: (res) => {
-          console.log(res);
-          alert('Signup Successfully');
-          this.signupForm.reset();
-          this._router.navigate(['/login']);
-        },
-        error: (err) => {
-          console.log(err);
-          alert('Signup Error');
-        },
-      });
+    if (this.signupForm.invalid) {
+      return;
+    }
+
+    const formData = {
+      username: this.signupForm.value.username,
+      email: this.signupForm.value.email,
+      password: this.signupForm.value.password,
+    };
+
+    this._http.post<any>(this.apiUrl + 'signup', formData).subscribe({
+      next: (res) => {
+        console.log(res);
+        alert('Signup Successfully');
+        this.signupForm.reset();
+        this._router.navigate(['/login']);
+      },
+      error: (err) => {
+        console.log(err);
+        alert('Signup Error');
+      },
+    });
   }
 }
