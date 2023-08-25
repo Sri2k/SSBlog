@@ -7,6 +7,8 @@ import { CreatePostComponent } from './components/create-post/create-post.compon
 import { PostDetailsComponent } from './components/post-details/post-details.component';
 import { EditCommentComponent } from './components/edit-comment/edit-comment.component';
 import { SignupComponent } from './components/signup/signup.component';
+import { autGuard } from './guards/aut.guard';
+import { ErrorComponent } from './components/error/error.component';
 
 const routes: Routes = [
   {
@@ -25,22 +27,28 @@ const routes: Routes = [
   {
     path: "home",
     component: HomeComponent,
+    canActivate: [autGuard]
   },
   {
     path: "post/create",
     component: CreatePostComponent,
+    canActivate: [autGuard]
   },
   {
     path: "post/details/:id",
     component: PostDetailsComponent,
+    canActivate: [autGuard]
+
   },
   {
     path: "comments/:id/edit",
     component: EditCommentComponent,
+    canActivate: [autGuard]
+
   },
   {
     path: "**",
-    component: LoginComponent,
+    component: ErrorComponent,
   },
 ];
 

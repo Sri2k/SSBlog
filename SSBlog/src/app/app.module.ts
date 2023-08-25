@@ -15,6 +15,8 @@ import { HomeComponent } from './components/home/home.component';
 import { PostDetailsComponent } from './components/post-details/post-details.component';
 import { ForgetPwdComponent } from './components/forget-pwd/forget-pwd.component';
 import { SignupComponent } from './components/signup/signup.component';
+import { ErrorComponent } from './components/error/error.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 @NgModule({
@@ -28,7 +30,9 @@ import { SignupComponent } from './components/signup/signup.component';
     CreatePostComponent,
     LoginComponent,
     ForgetPwdComponent,
-    SignupComponent
+    SignupComponent,
+    ErrorComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

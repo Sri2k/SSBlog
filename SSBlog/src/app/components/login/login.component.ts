@@ -41,8 +41,8 @@ export class LoginComponent implements OnInit {
         if (user) {
           console.log(user.username)
          sessionStorage.setItem("user",user.username);
-         sessionStorage.setItem("userId",user.postId);
-
+       //  sessionStorage.setItem("userId",user.postId);
+         sessionStorage.setItem("auth",'true')
           alert(user.username + ' logged in successfully');
           this._router.navigate(['/home']);
           this.loginForm.reset();
