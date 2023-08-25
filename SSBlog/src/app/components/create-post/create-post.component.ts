@@ -25,7 +25,7 @@ export class CreatePostComponent implements OnInit {
     // this.author = JSON.parse(localStorage.getItem("user"));
     const userJson = sessionStorage.getItem("user");
   if (userJson !== null) {
-    this.author = JSON.parse(userJson);
+    this.author = userJson;
   }
 
     this.blogForm = this.fb.group({
