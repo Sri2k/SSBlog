@@ -4,7 +4,7 @@ import { Observable, catchError, of, tap } from 'rxjs';
 import { Post } from '../model/post';
 
 
-const apiURL = 'https://sri2kbackendserver.onrender.com/';
+const apiURL = 'https://sri2kbackendserver.onrender.com/posts';
 // const apiURL = './../assets/api/db.json';
 @Injectable({
   providedIn: 'root'
