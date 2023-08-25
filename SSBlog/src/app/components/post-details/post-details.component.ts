@@ -38,6 +38,7 @@ export class PostDetailsComponent implements OnInit {
   }
 
   getPostDetails(id: any) {
+    console.log(id+'noob')
     this.apiPost.getPost(id)
       .subscribe((data: any) => {
         this.post = data;

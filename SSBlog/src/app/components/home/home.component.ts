@@ -53,5 +53,9 @@ export class HomeComponent implements OnInit {
       return `${timeDifferenceDays} days ago`; // 24 hours = 1440 minutes
     }
   }
+
+  readMore(id:any){
+    this.router.navigate(['/post/details', id]);
+  }
   
 }

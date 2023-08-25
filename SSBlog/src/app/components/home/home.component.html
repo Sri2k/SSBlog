@@ -19,10 +19,50 @@
     <div
       class="col-12 col-sm-8 col-md-6 col-lg-4 pb-4"
       *ngFor="let post of posts"
-      [routerLink]="['/post/details/', post.id]">
+      >
+      <!-- [routerLink]="['/post/details/', post.id]" -->
+
       <!-- [routerLink]="['/post/details/', post.id]"
     > -->
-      <div class="card">
+
+    <div class="card">
+      <img [src]="post.homePageBlogUrl" [alt]="post.heading + ' image loading...'">
+      <div class="card-body">
+        <h5 class="card-title">{{ post.heading }}</h5>
+        <small class="text-muted cat">
+          <i class="far fa-clock text-info"></i> {{getTimeDifference(post.createdAt)}}
+        </small>
+        <p class="card-text">
+          {{ post.subHeading }}
+        </p>
+       
+        <a  class="btn btn-primary" (click)="readMore(post.id)">Read more</a>
+
+      </div>
+      <div class="card-footer">
+        <div class="views">
+          <b> {{ post.author | titlecase  }} </b>
+          <span class="text-muted"></span>
+        </div>
+        <div class="stats">
+          {{ post.createdAt | date: "dd/MM/yyyy" }}
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- <div class="card">
         <img [src]="post.homePageBlogUrl" [alt]="post.heading + ' image loading...'" />
 
         <div class="card-img-overlay">
@@ -36,7 +76,9 @@
           <p class="card-text">
             {{ post.subHeading }}
           </p>
-          <button  class="btn btn-primary">Read more</button>
+         
+           <a  class="btn btn-primary" (click)="readMore(post.id)">Read more</a>
+
         </div>
         <div
           class="
@@ -56,7 +98,6 @@
             {{ post.createdAt | date: "dd/MM/yyyy" }}
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
-</div>
