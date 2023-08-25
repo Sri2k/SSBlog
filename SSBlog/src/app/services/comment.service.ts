@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable, catchError, of, tap } from 'rxjs';
 import { Comment } from '../model/comment';
 
-const apiURL = 'http://localhost:3000';
+const apiURL = 'https://sri2kbackendserver.onrender.com';
 
 @Injectable({
   providedIn: 'root'

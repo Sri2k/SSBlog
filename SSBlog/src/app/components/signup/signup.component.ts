@@ -20,7 +20,7 @@ function passwordMatchValidator(control: AbstractControl): { [key: string]: bool
   styleUrls: ['./signup.component.scss'],
 })
 export class SignupComponent {
-  apiUrl: string = 'http://localhost:3000/';
+  apiUrl: string = 'https://sri2kbackendserver.onrender.com/';
 
   signupForm!: FormGroup;
 

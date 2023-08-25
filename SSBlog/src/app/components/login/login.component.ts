@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
-  apiUrl:string = 'http://localhost:3000/';
+  apiUrl:string = 'https://sri2kbackendserver.onrender.com/';
 
   loginForm!: FormGroup;
   constructor(
