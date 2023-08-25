@@ -36,9 +36,15 @@ export class LoginComponent implements OnInit {
             a.password === this.loginForm.value.password
           );
         });
+        console.log(user)
+
         if (user) {
-          alert(user.name + ' logged in successfully');
-          this._router.navigate(['/restaurent']);
+          console.log(user.username)
+         sessionStorage.setItem("user",user.username);
+         sessionStorage.setItem("userId",user.postId);
+
+          alert(user.username + ' logged in successfully');
+          this._router.navigate(['/home']);
           this.loginForm.reset();
         } else {
           alert('Invalid credentials');

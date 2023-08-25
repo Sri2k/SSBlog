@@ -13,6 +13,7 @@ import { Comment } from '../../model/comment';
   styleUrls: ['./post-details.component.scss']
 })
 export class PostDetailsComponent implements OnInit {
+  editEnable!:boolean;
 
   post: any = {
     id: '',
@@ -32,6 +33,8 @@ export class PostDetailsComponent implements OnInit {
 
   ngOnInit() {
     this.getPostDetails(this.route.snapshot.params['id']);
+    this.isEditingEnableCheck();
+
   }
 
   getPostDetails(id: any) {
@@ -60,5 +63,15 @@ export class PostDetailsComponent implements OnInit {
   closeModal() {
      this.modalService.dismissAll();
   }
-
+  
+  private isEditingEnableCheck(){
+    this.apiComment.getallComments().subscribe({
+      next:(response:any)=>{
+        console.log('nooooob')
+        console.log(response)
+        this.editEnable=response.some((x:any)=>x.userId == sessionStorage.getItem('userId'))
+      }
+    }
+    )
+  }
 }

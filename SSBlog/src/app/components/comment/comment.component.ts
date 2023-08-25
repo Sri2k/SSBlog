@@ -1,4 +1,4 @@
-import {Component, Input} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import { Router } from '@angular/router';
 import { CommentService } from '../../services/comment.service';
 import { Comment } from '../../model/comment';
@@ -8,7 +8,7 @@ import { Comment } from '../../model/comment';
   templateUrl: './comment.component.html',
   styleUrls: ['./comment.component.scss']
 })
-export class CommentComponent {
+export class CommentComponent implements OnInit{
 
   @Input() comment: Comment = {
     id: 0,
@@ -18,8 +18,11 @@ export class CommentComponent {
     date: null,
     content: ''
   };
-
+  editEnable!:boolean;
   constructor(private api: CommentService, private router: Router) { }
+  ngOnInit(): void {
+    //this.isEditingEnableCheck();
+  }
 
   deleteComment() {
     this.api.deleteCommentById(this.comment.id)
@@ -36,6 +39,17 @@ export class CommentComponent {
   private refresh() {
     this.router.routeReuseStrategy.shouldReuseRoute = () => false;
     this.router.onSameUrlNavigation = 'reload';
+  }
+
+  private isEditingEnableCheck(){
+    this.api.getallComments().subscribe({
+      next:(response:any)=>{
+        console.log('nooooob')
+        console.log(response)
+        this.editEnable=response.some((x:any)=>x.userId == sessionStorage.getItem('userId'))
+      }
+    }
+    )
   }
 
 }

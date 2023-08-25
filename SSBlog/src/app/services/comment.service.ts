@@ -27,6 +27,10 @@ export class CommentService {
       );
   }
 
+  getallComments():Observable<Comment[]>{
+    return this.http.get<Comment[]>(apiURL+'/comments');
+  }
+
   deleteCommentById(id: any): Observable<Comment> {
     const url = `${apiURL}/comments/${id}`;
     return this.http.delete<Comment>(url).pipe(
