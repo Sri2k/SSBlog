@@ -1,5 +1,5 @@
   publish = "dist/ssblog"
-  command = "ng build --prod"
+  command = "ng build"
 [[redirects]]
   from = "/*"
   to = "/index.html"
