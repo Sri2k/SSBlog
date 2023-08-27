@@ -1,3 +1,4 @@
+ [build] 
   publish = "dist/ssblog"
   command = "ng build"
 [[redirects]]
